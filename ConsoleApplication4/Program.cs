@@ -47,6 +47,7 @@ namespace ConsoleApplication4
                             Console.WriteLine("Enter Employee's Position to Confirm: ");
                             string positionDeveloper = Console.ReadLine();
                             Console.WriteLine("Enter Employee's Salary: ");
+                            string input = Console.ReadLine();
                             int salaryDeveloper = Convert.ToInt32(Console.ReadLine());
                             Console.WriteLine("Enter Employee's Responsibilties");
                             string responsibilityDeveloper = Console.ReadLine();
